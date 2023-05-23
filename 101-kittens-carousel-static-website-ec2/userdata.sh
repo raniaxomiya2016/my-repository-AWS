@@ -11,9 +11,8 @@ wget "https://raw.githubusercontent.com/raniaxomiya2016/my-repository/main/101-k
 
 wget "https://raw.githubusercontent.com/raniaxomiya2016/my-repository/main/101-kittens-carousel-static-website-ec2/static-web/cat2.jpg"
 
-
-
-systemctl stsrt httpd
+systemctl start httpd
+systemctl enable httpd
      
     
            
